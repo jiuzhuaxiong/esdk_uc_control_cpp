@@ -1,0 +1,1665 @@
+﻿// Created by Microsoft (R) C/C++ Compiler Version 10.00.30319.01 (8cbb0bd1).
+//
+// e:\05-svn\v1r2-pccode\control\conference\esdkclient\debug\espace.tlh
+//
+// C++ source equivalent of Win32 type library ..\tlb\eSpace.tlb
+// compiler-generated file created 05/27/14 at 10:49:47 - DO NOT EDIT!
+
+#pragma once
+#pragma pack(push, 8)
+
+#include <comdef.h>
+
+namespace eSpace {
+
+//
+// Forward references and typedefs
+//
+
+struct __declspec(uuid("e10b15d4-4d75-4804-8f7d-7c7e2be1d9b2"))
+/* LIBID */ __eSpaceLib;
+struct __declspec(uuid("d50c3186-0f89-48f8-b204-3604629dee10"))
+/* dual interface */ IMessenger;
+enum __MIDL___MIDL_itf_eSpace_0001_0070_0006;
+enum __MIDL___MIDL_itf_eSpace_0001_0070_0005;
+enum __MIDL___MIDL_itf_eSpace_0001_0070_0001;
+enum __MIDL___MIDL_itf_eSpace_0001_0070_0007;
+enum __MIDL___MIDL_itf_eSpace_0001_0070_0003;
+struct __declspec(uuid("d50c3286-0f89-48f8-b204-3604629dee10"))
+/* dual interface */ IMessenger2;
+enum __MIDL___MIDL_itf_eSpace_0001_0070_0009;
+struct __declspec(uuid("d50c3386-0f89-48f8-b204-3604629dee10"))
+/* dual interface */ IMessenger3;
+enum __MIDL___MIDL_itf_eSpace_0001_0070_0002;
+struct __declspec(uuid("da0635e8-09af-480c-88b2-aa9fa1d9db27"))
+/* dual interface */ IMessengerAdvanced;
+enum __MIDL___MIDL_itf_eSpace_0001_0076_0003;
+struct __declspec(uuid("53a5023d-6872-454a-9a4f-827f18cfbe02"))
+/* dual interface */ IMessengerContactResolution;
+enum __MIDL___MIDL_itf_eSpace_0001_0076_0001;
+enum __MIDL___MIDL_itf_eSpace_0001_0076_0002;
+struct __declspec(uuid("c9a6a6b6-9bc1-43a5-b06b-e58874eebc96"))
+/* dispinterface */ DMessengerEvents;
+struct __declspec(uuid("d6b0e4c8-fad6-4885-b271-0dc5a584adf8"))
+/* dual interface */ IMessengerWindow;
+enum __MIDL___MIDL_itf_eSpace_0001_0070_0004;
+struct __declspec(uuid("d6b0e4c9-fad6-4885-b271-0dc5a584adf8"))
+/* dual interface */ IMessengerConversationWnd;
+struct __declspec(uuid("7c613a61-0633-4c69-aff0-5ba9f1d28887"))
+/* dual interface */ IMessengerConversationWndAdvanced;
+struct __declspec(uuid("e7479a0f-bb19-44a5-968f-6f41d93ee0bc"))
+/* dual interface */ IMessengerContact;
+struct __declspec(uuid("086f69c0-2fbd-46b3-be50-ec401ab86099"))
+/* dual interface */ IMessengerContactAdvanced;
+struct __declspec(uuid("e7479a0d-bb19-44a5-968f-6f41d93ee0bc"))
+/* dual interface */ IMessengerContacts;
+struct __declspec(uuid("2e50547c-a8aa-4f60-b57e-1f414711007b"))
+/* dual interface */ IMessengerService;
+enum __MIDL___MIDL_itf_eSpace_0001_0070_0008;
+struct __declspec(uuid("2e50547b-a8aa-4f60-b57e-1f414711007b"))
+/* dual interface */ IMessengerServices;
+struct __declspec(uuid("e1af1038-b884-44cb-a535-1c3c11a3d1db"))
+/* dual interface */ IMessengerGroup;
+struct __declspec(uuid("e1af1028-b884-44cb-a535-1c3c11a3d1db"))
+/* dual interface */ IMessengerGroups;
+struct __declspec(uuid("521b0196-2da2-483e-993d-74fab4785959"))
+/* dual interface */ IMessengerEventHandler;
+struct __declspec(uuid("61be43c6-235e-45f9-857d-d5fdf00053f1"))
+/* dual interface */ IECSContactInfo;
+struct __declspec(uuid("3834ef34-21ad-4541-8745-6fc2e00308e0"))
+/* dual interface */ IECSContactMgr;
+struct __declspec(uuid("c90fe523-9a37-4ebb-941c-ee9c34edc869"))
+/* dual interface */ IECSMainWindow;
+struct __declspec(uuid("96841d96-03b4-4e7a-b964-65a86bf10146"))
+/* dual interface */ IECSOperatorResult;
+struct __declspec(uuid("55d7298e-9bc7-484e-99d7-5751b5c24c7a"))
+/* dual interface */ IECSEventHandler;
+struct __declspec(uuid("3c4afede-da1d-4843-bf30-17c1e6c91ace"))
+/* dual interface */ IECSEventCallback;
+enum ECSEventType;
+struct STCONTACTINFO;
+struct __declspec(uuid("68e5f4ee-3c09-474a-8068-af7f1366001b"))
+/* dual interface */ IECSEspaceApp;
+enum EXTENDED_STATUS_TYPE;
+enum __MIDL___MIDL_itf_eSpace_0001_0081_0001;
+enum __MIDL___MIDL_itf_eSpace_0001_0081_0002;
+enum __MIDL___MIDL_itf_eSpace_0001_0081_0003;
+struct /* coclass */ Messenger;
+struct /* coclass */ MessengerServices;
+struct /* coclass */ MessengerContacts;
+struct /* coclass */ ECSEspaceApp;
+struct /* coclass */ ECSContactMgr;
+struct /* coclass */ ECSContactInfo;
+struct /* coclass */ ECSMainWindow;
+struct /* coclass */ ECSOperatorResult;
+struct /* coclass */ ECSEventHandler;
+typedef enum __MIDL___MIDL_itf_eSpace_0001_0070_0006 MOPTIONPAGE;
+typedef enum __MIDL___MIDL_itf_eSpace_0001_0070_0005 MPHONE_TYPE;
+typedef enum __MIDL___MIDL_itf_eSpace_0001_0070_0001 MISTATUS;
+typedef enum __MIDL___MIDL_itf_eSpace_0001_0070_0007 MUAFOLDER;
+typedef enum __MIDL___MIDL_itf_eSpace_0001_0070_0003 MCONTACTPROPERTY;
+typedef enum __MIDL___MIDL_itf_eSpace_0001_0070_0009 MUASORT;
+typedef enum __MIDL___MIDL_itf_eSpace_0001_0070_0002 MMESSENGERPROPERTY;
+typedef enum __MIDL___MIDL_itf_eSpace_0001_0076_0003 CONVERSATION_TYPE;
+typedef enum __MIDL___MIDL_itf_eSpace_0001_0076_0001 ADDRESS_TYPE;
+typedef enum __MIDL___MIDL_itf_eSpace_0001_0076_0002 CONTACT_RESOLUTION_TYPE;
+typedef enum __MIDL___MIDL_itf_eSpace_0001_0070_0004 MWINDOWPROPERTY;
+typedef enum __MIDL___MIDL_itf_eSpace_0001_0070_0008 MSERVICEPROPERTY;
+typedef enum __MIDL___MIDL_itf_eSpace_0001_0081_0001 CONTACT_PROPERTY;
+typedef enum __MIDL___MIDL_itf_eSpace_0001_0081_0002 CALENDAR_STATE;
+typedef enum __MIDL___MIDL_itf_eSpace_0001_0081_0003 PRESENCE_PROPERTY;
+
+//
+// Smart pointer typedef declarations
+//
+
+_COM_SMARTPTR_TYPEDEF(IMessenger, __uuidof(IMessenger));
+_COM_SMARTPTR_TYPEDEF(IMessenger2, __uuidof(IMessenger2));
+_COM_SMARTPTR_TYPEDEF(IMessenger3, __uuidof(IMessenger3));
+_COM_SMARTPTR_TYPEDEF(IMessengerAdvanced, __uuidof(IMessengerAdvanced));
+_COM_SMARTPTR_TYPEDEF(IMessengerContactResolution, __uuidof(IMessengerContactResolution));
+_COM_SMARTPTR_TYPEDEF(DMessengerEvents, __uuidof(DMessengerEvents));
+_COM_SMARTPTR_TYPEDEF(IMessengerWindow, __uuidof(IMessengerWindow));
+_COM_SMARTPTR_TYPEDEF(IMessengerConversationWnd, __uuidof(IMessengerConversationWnd));
+_COM_SMARTPTR_TYPEDEF(IMessengerConversationWndAdvanced, __uuidof(IMessengerConversationWndAdvanced));
+_COM_SMARTPTR_TYPEDEF(IMessengerContact, __uuidof(IMessengerContact));
+_COM_SMARTPTR_TYPEDEF(IMessengerContactAdvanced, __uuidof(IMessengerContactAdvanced));
+_COM_SMARTPTR_TYPEDEF(IMessengerContacts, __uuidof(IMessengerContacts));
+_COM_SMARTPTR_TYPEDEF(IMessengerService, __uuidof(IMessengerService));
+_COM_SMARTPTR_TYPEDEF(IMessengerServices, __uuidof(IMessengerServices));
+_COM_SMARTPTR_TYPEDEF(IMessengerGroup, __uuidof(IMessengerGroup));
+_COM_SMARTPTR_TYPEDEF(IMessengerGroups, __uuidof(IMessengerGroups));
+_COM_SMARTPTR_TYPEDEF(IMessengerEventHandler, __uuidof(IMessengerEventHandler));
+_COM_SMARTPTR_TYPEDEF(IECSContactInfo, __uuidof(IECSContactInfo));
+_COM_SMARTPTR_TYPEDEF(IECSContactMgr, __uuidof(IECSContactMgr));
+_COM_SMARTPTR_TYPEDEF(IECSMainWindow, __uuidof(IECSMainWindow));
+_COM_SMARTPTR_TYPEDEF(IECSOperatorResult, __uuidof(IECSOperatorResult));
+_COM_SMARTPTR_TYPEDEF(IECSEventHandler, __uuidof(IECSEventHandler));
+_COM_SMARTPTR_TYPEDEF(IECSEventCallback, __uuidof(IECSEventCallback));
+_COM_SMARTPTR_TYPEDEF(IECSEspaceApp, __uuidof(IECSEspaceApp));
+
+//
+// Type library items
+//
+
+enum __MIDL___MIDL_itf_eSpace_0001_0070_0006
+{
+    MOPT_GENERAL_PAGE = 0,
+    MOPT_PRIVACY_PAGE = 1,
+    MOPT_EXCHANGE_PAGE = 2,
+    MOPT_ACCOUNTS_PAGE = 3,
+    MOPT_CONNECTION_PAGE = 4,
+    MOPT_PREFERENCES_PAGE = 5,
+    MOPT_SERVICES_PAGE = 6,
+    MOPT_PHONE_PAGE = 7
+};
+
+enum __MIDL___MIDL_itf_eSpace_0001_0070_0005
+{
+    MPHONE_TYPE_ALL = -1,
+    MPHONE_TYPE_HOME = 0,
+    MPHONE_TYPE_WORK = 1,
+    MPHONE_TYPE_MOBILE = 2,
+    MPHONE_TYPE_CUSTOM = 3
+};
+
+enum __MIDL___MIDL_itf_eSpace_0001_0070_0001
+{
+    MISTATUS_UNKNOWN = 0,
+    MISTATUS_OFFLINE = 1,
+    MISTATUS_ONLINE = 2,
+    MISTATUS_INVISIBLE = 6,
+    MISTATUS_BUSY = 10,
+    MISTATUS_BE_RIGHT_BACK = 14,
+    MISTATUS_IDLE = 18,
+    MISTATUS_AWAY = 34,
+    MISTATUS_ON_THE_PHONE = 50,
+    MISTATUS_OUT_TO_LUNCH = 66,
+    MISTATUS_IN_A_MEETING = 82,
+    MISTATUS_OUT_OF_OFFICE = 98,
+    MISTATUS_DO_NOT_DISTURB = 114,
+    MISTATUS_IN_A_CONFERENCE = 130,
+    MISTATUS_ALLOW_URGENT_INTERRUPTIONS = 146,
+    MISTATUS_MAY_BE_AVAILABLE = 162,
+    MISTATUS_CUSTOM = 178,
+    MISTATUS_LOCAL_FINDING_SERVER = 256,
+    MISTATUS_LOCAL_CONNECTING_TO_SERVER = 512,
+    MISTATUS_LOCAL_SYNCHRONIZING_WITH_SERVER = 768,
+    MISTATUS_LOCAL_DISCONNECTING_FROM_SERVER = 1024
+};
+
+enum __MIDL___MIDL_itf_eSpace_0001_0070_0007
+{
+    MUAFOLDER_INBOX = 0,
+    MUAFOLDER_ALL_OTHER_FOLDERS = 1
+};
+
+struct __declspec(uuid("d50c3186-0f89-48f8-b204-3604629dee10"))
+IMessenger : IDispatch
+{
+    //
+    // Property data
+    //
+
+    __declspec(property(get=GetReceiveFileDirectory))
+    _bstr_t ReceiveFileDirectory;
+    __declspec(property(get=GetMyFriendlyName))
+    _bstr_t MyFriendlyName;
+    __declspec(property(get=GetWindow))
+    IDispatchPtr Window;
+    __declspec(property(get=GetUnreadEmailCount))
+    long UnreadEmailCount[];
+    __declspec(property(get=GetMyServiceName))
+    _bstr_t MyServiceName;
+    __declspec(property(get=GetMyPhoneNumber))
+    _bstr_t MyPhoneNumber[];
+    __declspec(property(get=GetMyContacts))
+    IDispatchPtr MyContacts;
+    __declspec(property(get=GetMySigninName))
+    _bstr_t MySigninName;
+    __declspec(property(get=GetMyStatus,put=PutMyStatus))
+    MISTATUS MyStatus;
+    __declspec(property(get=GetMyProperty,put=PutMyProperty))
+    _variant_t MyProperty[];
+    __declspec(property(get=GetMyServiceId))
+    _bstr_t MyServiceId;
+    __declspec(property(get=GetServices))
+    IDispatchPtr Services;
+
+    //
+    // Wrapper methods for error-handling
+    //
+
+    IDispatchPtr GetWindow ( );
+    HRESULT ViewProfile (
+        const _variant_t & vContact );
+    _bstr_t GetReceiveFileDirectory ( );
+    IDispatchPtr StartVoice (
+        const _variant_t & vContact );
+    IDispatchPtr InviteApp (
+        const _variant_t & vContact,
+        _bstr_t bstrAppID );
+    HRESULT SendMail (
+        const _variant_t & vContact );
+    HRESULT OpenInbox ( );
+    IDispatchPtr SendFile (
+        const _variant_t & vContact,
+        _bstr_t bstrFileName );
+    HRESULT Signout ( );
+    HRESULT Signin (
+        long hwndParent,
+        _bstr_t bstrSigninName,
+        _bstr_t bstrPassword );
+    IDispatchPtr GetContact (
+        _bstr_t bstrSigninName,
+        _bstr_t bstrServiceId );
+    HRESULT OptionsPages (
+        long hwndParent,
+        MOPTIONPAGE MOPTIONPAGE );
+    HRESULT AddContact (
+        long hwndParent,
+        _bstr_t bstrEMail );
+    HRESULT FindContact (
+        long hwndParent,
+        _bstr_t bstrFirstName,
+        _bstr_t bstrLastName,
+        const _variant_t & vbstrCity = vtMissing,
+        const _variant_t & vbstrState = vtMissing,
+        const _variant_t & vbstrCountry = vtMissing );
+    IDispatchPtr InstantMessage (
+        const _variant_t & vContact );
+    IDispatchPtr Phone (
+        const _variant_t & vContact,
+        MPHONE_TYPE ePhoneNumber,
+        _bstr_t bstrNumber );
+    HRESULT MediaWizard (
+        long hwndParent );
+    IDispatchPtr Page (
+        const _variant_t & vContact );
+    HRESULT AutoSignin ( );
+    IDispatchPtr GetMyContacts ( );
+    _bstr_t GetMySigninName ( );
+    _bstr_t GetMyFriendlyName ( );
+    void PutMyStatus (
+        MISTATUS pmStatus );
+    MISTATUS GetMyStatus ( );
+    long GetUnreadEmailCount (
+        MUAFOLDER mFolder );
+    _bstr_t GetMyServiceName ( );
+    _bstr_t GetMyPhoneNumber (
+        MPHONE_TYPE PhoneType );
+    _variant_t GetMyProperty (
+        MCONTACTPROPERTY ePropType );
+    void PutMyProperty (
+        MCONTACTPROPERTY ePropType,
+        const _variant_t & pvPropVal );
+    _bstr_t GetMyServiceId ( );
+    IDispatchPtr GetServices ( );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall get_Window (
+        /*[out,retval]*/ IDispatch * * ppMWindow ) = 0;
+      virtual HRESULT __stdcall raw_ViewProfile (
+        /*[in]*/ VARIANT vContact ) = 0;
+      virtual HRESULT __stdcall get_ReceiveFileDirectory (
+        /*[out,retval]*/ BSTR * bstrPath ) = 0;
+      virtual HRESULT __stdcall raw_StartVoice (
+        /*[in]*/ VARIANT vContact,
+        /*[out,retval]*/ IDispatch * * ppMWindow ) = 0;
+      virtual HRESULT __stdcall raw_InviteApp (
+        /*[in]*/ VARIANT vContact,
+        /*[in]*/ BSTR bstrAppID,
+        /*[out,retval]*/ IDispatch * * ppMWindow ) = 0;
+      virtual HRESULT __stdcall raw_SendMail (
+        /*[in]*/ VARIANT vContact ) = 0;
+      virtual HRESULT __stdcall raw_OpenInbox ( ) = 0;
+      virtual HRESULT __stdcall raw_SendFile (
+        /*[in]*/ VARIANT vContact,
+        /*[in]*/ BSTR bstrFileName,
+        /*[out,retval]*/ IDispatch * * ppMWindow ) = 0;
+      virtual HRESULT __stdcall raw_Signout ( ) = 0;
+      virtual HRESULT __stdcall raw_Signin (
+        /*[in]*/ long hwndParent,
+        /*[in]*/ BSTR bstrSigninName,
+        /*[in]*/ BSTR bstrPassword ) = 0;
+      virtual HRESULT __stdcall raw_GetContact (
+        /*[in]*/ BSTR bstrSigninName,
+        /*[in]*/ BSTR bstrServiceId,
+        /*[out,retval]*/ IDispatch * * ppMContact ) = 0;
+      virtual HRESULT __stdcall raw_OptionsPages (
+        /*[in]*/ long hwndParent,
+        /*[in]*/ MOPTIONPAGE MOPTIONPAGE ) = 0;
+      virtual HRESULT __stdcall raw_AddContact (
+        /*[in]*/ long hwndParent,
+        /*[in]*/ BSTR bstrEMail ) = 0;
+      virtual HRESULT __stdcall raw_FindContact (
+        /*[in]*/ long hwndParent,
+        /*[in]*/ BSTR bstrFirstName,
+        /*[in]*/ BSTR bstrLastName,
+        /*[in]*/ VARIANT vbstrCity = vtMissing,
+        /*[in]*/ VARIANT vbstrState = vtMissing,
+        /*[in]*/ VARIANT vbstrCountry = vtMissing ) = 0;
+      virtual HRESULT __stdcall raw_InstantMessage (
+        /*[in]*/ VARIANT vContact,
+        /*[out,retval]*/ IDispatch * * ppMWindow ) = 0;
+      virtual HRESULT __stdcall raw_Phone (
+        /*[in]*/ VARIANT vContact,
+        /*[in]*/ MPHONE_TYPE ePhoneNumber,
+        /*[in]*/ BSTR bstrNumber,
+        /*[out,retval]*/ IDispatch * * ppMWindow ) = 0;
+      virtual HRESULT __stdcall raw_MediaWizard (
+        /*[in]*/ long hwndParent ) = 0;
+      virtual HRESULT __stdcall raw_Page (
+        /*[in]*/ VARIANT vContact,
+        /*[out,retval]*/ IDispatch * * ppMWindow ) = 0;
+      virtual HRESULT __stdcall raw_AutoSignin ( ) = 0;
+      virtual HRESULT __stdcall get_MyContacts (
+        /*[out,retval]*/ IDispatch * * ppMContacts ) = 0;
+      virtual HRESULT __stdcall get_MySigninName (
+        /*[out,retval]*/ BSTR * pbstrName ) = 0;
+      virtual HRESULT __stdcall get_MyFriendlyName (
+        /*[out,retval]*/ BSTR * pbstrName ) = 0;
+      virtual HRESULT __stdcall put_MyStatus (
+        /*[in]*/ MISTATUS pmStatus ) = 0;
+      virtual HRESULT __stdcall get_MyStatus (
+        /*[out,retval]*/ MISTATUS * pmStatus ) = 0;
+      virtual HRESULT __stdcall get_UnreadEmailCount (
+        /*[in]*/ MUAFOLDER mFolder,
+        /*[out,retval]*/ long * plCount ) = 0;
+      virtual HRESULT __stdcall get_MyServiceName (
+        /*[out,retval]*/ BSTR * pbstrServiceName ) = 0;
+      virtual HRESULT __stdcall get_MyPhoneNumber (
+        /*[in]*/ MPHONE_TYPE PhoneType,
+        /*[out,retval]*/ BSTR * pbstrNumber ) = 0;
+      virtual HRESULT __stdcall get_MyProperty (
+        /*[in]*/ MCONTACTPROPERTY ePropType,
+        /*[out,retval]*/ VARIANT * pvPropVal ) = 0;
+      virtual HRESULT __stdcall put_MyProperty (
+        /*[in]*/ MCONTACTPROPERTY ePropType,
+        /*[in]*/ VARIANT pvPropVal ) = 0;
+      virtual HRESULT __stdcall get_MyServiceId (
+        /*[out,retval]*/ BSTR * pbstrServiceId ) = 0;
+      virtual HRESULT __stdcall get_Services (
+        /*[out,retval]*/ IDispatch * * ppdispServices ) = 0;
+};
+
+enum __MIDL___MIDL_itf_eSpace_0001_0070_0003
+{
+    MCONTACTPROP_INVALID_PROPERTY = -1,
+    MCONTACTPROP_GROUPS_PROPERTY = 0,
+    MCONTACTPROP_EMAIL = 1
+};
+
+struct __declspec(uuid("d50c3286-0f89-48f8-b204-3604629dee10"))
+IMessenger2 : IMessenger
+{
+    //
+    // Property data
+    //
+
+    __declspec(property(get=GetContactsSortOrder,put=PutContactsSortOrder))
+    MUASORT ContactsSortOrder;
+    __declspec(property(get=GetMyGroups))
+    IDispatchPtr MyGroups;
+
+    //
+    // Wrapper methods for error-handling
+    //
+
+    MUASORT GetContactsSortOrder ( );
+    void PutContactsSortOrder (
+        MUASORT pSort );
+    IDispatchPtr StartVideo (
+        const _variant_t & vContact );
+    IDispatchPtr GetMyGroups ( );
+    IDispatchPtr CreateGroup (
+        _bstr_t bstrName,
+        const _variant_t & vService );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall get_ContactsSortOrder (
+        /*[out,retval]*/ MUASORT * pSort ) = 0;
+      virtual HRESULT __stdcall put_ContactsSortOrder (
+        /*[in]*/ MUASORT pSort ) = 0;
+      virtual HRESULT __stdcall raw_StartVideo (
+        /*[in]*/ VARIANT vContact,
+        /*[out,retval]*/ IDispatch * * ppMWindow ) = 0;
+      virtual HRESULT __stdcall get_MyGroups (
+        /*[out,retval]*/ IDispatch * * ppMGroups ) = 0;
+      virtual HRESULT __stdcall raw_CreateGroup (
+        /*[in]*/ BSTR bstrName,
+        /*[in]*/ VARIANT vService,
+        /*[out,retval]*/ IDispatch * * ppGroup ) = 0;
+};
+
+enum __MIDL___MIDL_itf_eSpace_0001_0070_0009
+{
+    MUASORT_GROUPS = 0,
+    MUASORT_ONOFFLINE = 1
+};
+
+struct __declspec(uuid("d50c3386-0f89-48f8-b204-3604629dee10"))
+IMessenger3 : IMessenger2
+{
+    //
+    // Property data
+    //
+
+    __declspec(property(get=GetProperty,put=PutProperty))
+    _variant_t Property[];
+
+    //
+    // Wrapper methods for error-handling
+    //
+
+    _variant_t GetProperty (
+        MMESSENGERPROPERTY ePropType );
+    void PutProperty (
+        MMESSENGERPROPERTY ePropType,
+        const _variant_t & pvPropVal );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall get_Property (
+        /*[in]*/ MMESSENGERPROPERTY ePropType,
+        /*[out,retval]*/ VARIANT * pvPropVal ) = 0;
+      virtual HRESULT __stdcall put_Property (
+        /*[in]*/ MMESSENGERPROPERTY ePropType,
+        /*[in]*/ VARIANT pvPropVal ) = 0;
+};
+
+enum __MIDL___MIDL_itf_eSpace_0001_0070_0002
+{
+    MMESSENGERPROP_VERSION = 0,
+    MMESSENGERPROP_PLCID = 1
+};
+
+struct __declspec(uuid("da0635e8-09af-480c-88b2-aa9fa1d9db27"))
+IMessengerAdvanced : IMessenger3
+{
+    //
+    // Wrapper methods for error-handling
+    //
+
+    _variant_t StartConversation (
+        CONVERSATION_TYPE ConversationType,
+        const _variant_t & vParticipants = vtMissing,
+        const _variant_t & vContextualData = vtMissing,
+        const _variant_t & vSubject = vtMissing,
+        const _variant_t & vConversationIndex = vtMissing,
+        const _variant_t & vConversationData = vtMissing );
+    _bstr_t GetAuthenticationInfo ( );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall raw_StartConversation (
+        /*[in]*/ CONVERSATION_TYPE ConversationType,
+        /*[in]*/ VARIANT vParticipants,
+        /*[in]*/ VARIANT vContextualData,
+        /*[in]*/ VARIANT vSubject,
+        /*[in]*/ VARIANT vConversationIndex,
+        /*[in]*/ VARIANT vConversationData,
+        /*[out,retval]*/ VARIANT * pvWndHnd ) = 0;
+      virtual HRESULT __stdcall raw_GetAuthenticationInfo (
+        /*[out,retval]*/ BSTR * pbstrAuthInfo ) = 0;
+};
+
+enum __MIDL___MIDL_itf_eSpace_0001_0076_0003
+{
+    CONVERSATION_TYPE_IM = 1,
+    CONVERSATION_TYPE_PHONE = 2,
+    CONVERSATION_TYPE_LIVEMEETING = 4,
+    CONVERSATION_TYPE_AUDIO = 8,
+    CONVERSATION_TYPE_VIDEO = 16,
+    CONVERSATION_TYPE_PSTN = 32
+};
+
+enum __MIDL___MIDL_itf_eSpace_0001_0076_0001
+{
+    ADDRESS_TYPE_SMTP = 1,
+    ADDRESS_TYPE_DISPLAY_NAME = 2,
+    ADDRESS_TYPE_EXTERNAL = 3
+};
+
+struct __declspec(uuid("53a5023d-6872-454a-9a4f-827f18cfbe02"))
+IMessengerContactResolution : IDispatch
+{
+    //
+    // Wrapper methods for error-handling
+    //
+
+    _bstr_t ResolveContact (
+        ADDRESS_TYPE AddressType,
+        CONTACT_RESOLUTION_TYPE ResolutionType,
+        _bstr_t bstrAddress );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall raw_ResolveContact (
+        /*[in]*/ ADDRESS_TYPE AddressType,
+        /*[in]*/ CONTACT_RESOLUTION_TYPE ResolutionType,
+        /*[in]*/ BSTR bstrAddress,
+        /*[out,retval]*/ BSTR * pbstrIMAddress ) = 0;
+};
+
+enum __MIDL___MIDL_itf_eSpace_0001_0076_0002
+{
+    CONTACT_RESOLUTION_CACHED_ONLY = 1,
+    CONTACT_RESOLUTION_ANY = 2
+};
+
+struct __declspec(uuid("c9a6a6b6-9bc1-43a5-b06b-e58874eebc96"))
+DMessengerEvents : IDispatch
+{
+    //
+    // Wrapper methods for error-handling
+    //
+
+    // Methods:
+    HRESULT OnGroupAdded (
+        long hr,
+        IDispatch * pMGroup );
+    HRESULT OnGroupRemoved (
+        long hr,
+        IDispatch * pMGroup );
+    HRESULT OnGroupNameChanged (
+        long hr,
+        IDispatch * pMGroup );
+    HRESULT OnContactAddedToGroup (
+        long hr,
+        IDispatch * pMGroup,
+        IDispatch * pMContact );
+    HRESULT OnContactRemovedFromGroup (
+        long hr,
+        IDispatch * pMGroup,
+        IDispatch * pMContact );
+    HRESULT OnIMWindowCreated (
+        IDispatch * pIMWindow );
+    HRESULT OnIMWindowDestroyed (
+        IDispatch * pIMWindow );
+    HRESULT OnIMWindowContactAdded (
+        IDispatch * pContact,
+        IDispatch * pIMWindow );
+    HRESULT OnIMWindowContactRemoved (
+        IDispatch * pContact,
+        IDispatch * pIMWindow );
+    HRESULT OnAppShutdown ( );
+    HRESULT OnSignin (
+        long hr );
+    HRESULT OnSignout ( );
+    HRESULT OnContactListAdd (
+        long hr,
+        IDispatch * pMContact );
+    HRESULT OnContactListRemove (
+        long hr,
+        IDispatch * pMContact );
+    HRESULT OnMyFriendlyNameChange (
+        long hr,
+        _bstr_t bstrPrevFriendlyName );
+    HRESULT OnMyStatusChange (
+        long hr,
+        MISTATUS mMyStatus );
+    HRESULT OnMyPhoneChange (
+        MPHONE_TYPE PhoneType,
+        _bstr_t bstrNumber );
+    HRESULT OnMyPropertyChange (
+        long hr,
+        MCONTACTPROPERTY ePropType,
+        const _variant_t & vPropVal );
+    HRESULT OnContactFriendlyNameChange (
+        long hr,
+        IDispatch * pMContact,
+        _bstr_t bstrPrevFriendlyName );
+    HRESULT OnContactStatusChange (
+        IDispatch * pMContact,
+        MISTATUS mStatus );
+    HRESULT OnContactPropertyChange (
+        long hr,
+        IDispatch * pContact,
+        MCONTACTPROPERTY ePropType,
+        const _variant_t & vPropVal );
+    HRESULT OnContactBlockChange (
+        long hr,
+        IDispatch * pContact,
+        VARIANT_BOOL pBoolBlock );
+    HRESULT OnContactPagerChange (
+        long hr,
+        IDispatch * pContact,
+        VARIANT_BOOL pBoolPage );
+    HRESULT OnContactPhoneChange (
+        long hr,
+        IDispatch * pContact,
+        MPHONE_TYPE PhoneType,
+        _bstr_t bstrNumber );
+    HRESULT OnUnreadEmailChange (
+        MUAFOLDER mFolder,
+        long cUnreadEmail,
+        VARIANT_BOOL * pBoolfEnableDefault );
+    HRESULT OnContactResolved (
+        long hr,
+        ADDRESS_TYPE AddressType,
+        _bstr_t bstrAddress,
+        _bstr_t bstrIMAddress );
+};
+
+struct __declspec(uuid("d6b0e4c8-fad6-4885-b271-0dc5a584adf8"))
+IMessengerWindow : IDispatch
+{
+    //
+    // Property data
+    //
+
+    __declspec(property(get=GetHWND))
+    long HWND;
+    __declspec(property(get=GetLeft,put=PutLeft))
+    long Left;
+    __declspec(property(get=GetTop,put=PutTop))
+    long Top;
+    __declspec(property(get=GetWidth,put=PutWidth))
+    long Width;
+    __declspec(property(get=GetHeight,put=PutHeight))
+    long Height;
+    __declspec(property(get=GetIsClosed))
+    VARIANT_BOOL IsClosed;
+    __declspec(property(get=GetProperty,put=PutProperty))
+    _variant_t Property[];
+
+    //
+    // Wrapper methods for error-handling
+    //
+
+    HRESULT Close ( );
+    long GetHWND ( );
+    long GetLeft ( );
+    void PutLeft (
+        long plLeft );
+    long GetTop ( );
+    void PutTop (
+        long plTop );
+    long GetWidth ( );
+    void PutWidth (
+        long plWidth );
+    long GetHeight ( );
+    void PutHeight (
+        long plHeight );
+    VARIANT_BOOL GetIsClosed ( );
+    HRESULT Show ( );
+    _variant_t GetProperty (
+        MWINDOWPROPERTY ePropType );
+    void PutProperty (
+        MWINDOWPROPERTY ePropType,
+        const _variant_t & pvPropVal );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall raw_Close ( ) = 0;
+      virtual HRESULT __stdcall get_HWND (
+        /*[out,retval]*/ long * phWnd ) = 0;
+      virtual HRESULT __stdcall get_Left (
+        /*[out,retval]*/ long * plLeft ) = 0;
+      virtual HRESULT __stdcall put_Left (
+        /*[in]*/ long plLeft ) = 0;
+      virtual HRESULT __stdcall get_Top (
+        /*[out,retval]*/ long * plTop ) = 0;
+      virtual HRESULT __stdcall put_Top (
+        /*[in]*/ long plTop ) = 0;
+      virtual HRESULT __stdcall get_Width (
+        /*[out,retval]*/ long * plWidth ) = 0;
+      virtual HRESULT __stdcall put_Width (
+        /*[in]*/ long plWidth ) = 0;
+      virtual HRESULT __stdcall get_Height (
+        /*[out,retval]*/ long * plHeight ) = 0;
+      virtual HRESULT __stdcall put_Height (
+        /*[in]*/ long plHeight ) = 0;
+      virtual HRESULT __stdcall get_IsClosed (
+        /*[out,retval]*/ VARIANT_BOOL * pBoolClose ) = 0;
+      virtual HRESULT __stdcall raw_Show ( ) = 0;
+      virtual HRESULT __stdcall get_Property (
+        /*[in]*/ MWINDOWPROPERTY ePropType,
+        /*[out,retval]*/ VARIANT * pvPropVal ) = 0;
+      virtual HRESULT __stdcall put_Property (
+        /*[in]*/ MWINDOWPROPERTY ePropType,
+        /*[in]*/ VARIANT pvPropVal ) = 0;
+};
+
+enum __MIDL___MIDL_itf_eSpace_0001_0070_0004
+{
+    MWINDOWPROP_INVALID_PROPERTY = -1,
+    MWINDOWPROP_VIEW_SIDEBAR = 0,
+    MWINDOWPROP_VIEW_TOOLBAR = 1
+};
+
+struct __declspec(uuid("d6b0e4c9-fad6-4885-b271-0dc5a584adf8"))
+IMessengerConversationWnd : IMessengerWindow
+{
+    //
+    // Property data
+    //
+
+    __declspec(property(get=GetContacts))
+    IDispatchPtr Contacts;
+    __declspec(property(get=GetHistory))
+    _bstr_t History;
+
+    //
+    // Wrapper methods for error-handling
+    //
+
+    IDispatchPtr GetContacts ( );
+    _bstr_t GetHistory ( );
+    HRESULT AddContact (
+        const _variant_t & vContact );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall get_Contacts (
+        /*[out,retval]*/ IDispatch * * pContacts ) = 0;
+      virtual HRESULT __stdcall get_History (
+        /*[out,retval]*/ BSTR * bstrHistoryText ) = 0;
+      virtual HRESULT __stdcall raw_AddContact (
+        /*[in]*/ VARIANT vContact ) = 0;
+};
+
+struct __declspec(uuid("7c613a61-0633-4c69-aff0-5ba9f1d28887"))
+IMessengerConversationWndAdvanced : IMessengerConversationWnd
+{
+    //
+    // Wrapper methods for error-handling
+    //
+
+    HRESULT SendText (
+        _bstr_t bstrTextMessage );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall raw_SendText (
+        /*[in]*/ BSTR bstrTextMessage ) = 0;
+};
+
+struct __declspec(uuid("e7479a0f-bb19-44a5-968f-6f41d93ee0bc"))
+IMessengerContact : IDispatch
+{
+    //
+    // Property data
+    //
+
+    __declspec(property(get=GetFriendlyName))
+    _bstr_t FriendlyName;
+    __declspec(property(get=GetStatus))
+    MISTATUS Status;
+    __declspec(property(get=GetSigninName))
+    _bstr_t SigninName;
+    __declspec(property(get=GetServiceName))
+    _bstr_t ServiceName;
+    __declspec(property(get=GetBlocked,put=PutBlocked))
+    VARIANT_BOOL Blocked;
+    __declspec(property(get=GetIsSelf))
+    VARIANT_BOOL IsSelf;
+    __declspec(property(get=GetProperty,put=PutProperty))
+    _variant_t Property[];
+    __declspec(property(get=GetCanPage))
+    VARIANT_BOOL CanPage;
+    __declspec(property(get=GetPhoneNumber))
+    _bstr_t PhoneNumber[];
+    __declspec(property(get=GetServiceId))
+    _bstr_t ServiceId;
+
+    //
+    // Wrapper methods for error-handling
+    //
+
+    _bstr_t GetFriendlyName ( );
+    MISTATUS GetStatus ( );
+    _bstr_t GetSigninName ( );
+    _bstr_t GetServiceName ( );
+    VARIANT_BOOL GetBlocked ( );
+    void PutBlocked (
+        VARIANT_BOOL pBoolBlock );
+    VARIANT_BOOL GetCanPage ( );
+    _bstr_t GetPhoneNumber (
+        MPHONE_TYPE PhoneType );
+    VARIANT_BOOL GetIsSelf ( );
+    _variant_t GetProperty (
+        MCONTACTPROPERTY ePropType );
+    void PutProperty (
+        MCONTACTPROPERTY ePropType,
+        const _variant_t & pvPropVal );
+    _bstr_t GetServiceId ( );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall get_FriendlyName (
+        /*[out,retval]*/ BSTR * pbstrFriendlyName ) = 0;
+      virtual HRESULT __stdcall get_Status (
+        /*[out,retval]*/ MISTATUS * pMstate ) = 0;
+      virtual HRESULT __stdcall get_SigninName (
+        /*[out,retval]*/ BSTR * pbstrSigninName ) = 0;
+      virtual HRESULT __stdcall get_ServiceName (
+        /*[out,retval]*/ BSTR * pbstrServiceName ) = 0;
+      virtual HRESULT __stdcall get_Blocked (
+        /*[out,retval]*/ VARIANT_BOOL * pBoolBlock ) = 0;
+      virtual HRESULT __stdcall put_Blocked (
+        /*[in]*/ VARIANT_BOOL pBoolBlock ) = 0;
+      virtual HRESULT __stdcall get_CanPage (
+        /*[out,retval]*/ VARIANT_BOOL * pBoolPage ) = 0;
+      virtual HRESULT __stdcall get_PhoneNumber (
+        /*[in]*/ MPHONE_TYPE PhoneType,
+        /*[out,retval]*/ BSTR * bstrNumber ) = 0;
+      virtual HRESULT __stdcall get_IsSelf (
+        /*[out,retval]*/ VARIANT_BOOL * pBoolSelf ) = 0;
+      virtual HRESULT __stdcall get_Property (
+        /*[in]*/ MCONTACTPROPERTY ePropType,
+        /*[out,retval]*/ VARIANT * pvPropVal ) = 0;
+      virtual HRESULT __stdcall put_Property (
+        /*[in]*/ MCONTACTPROPERTY ePropType,
+        /*[in]*/ VARIANT pvPropVal ) = 0;
+      virtual HRESULT __stdcall get_ServiceId (
+        /*[out,retval]*/ BSTR * pbstrServiceId ) = 0;
+};
+
+struct __declspec(uuid("086f69c0-2fbd-46b3-be50-ec401ab86099"))
+IMessengerContactAdvanced : IMessengerContact
+{
+    //
+    // Property data
+    //
+
+    __declspec(property(get=GetIsTagged,put=PutIsTagged))
+    VARIANT_BOOL IsTagged;
+    __declspec(property(get=GetPresenceProperties,put=PutPresenceProperties))
+    _variant_t PresenceProperties;
+
+    //
+    // Wrapper methods for error-handling
+    //
+
+    VARIANT_BOOL GetIsTagged ( );
+    void PutIsTagged (
+        VARIANT_BOOL pBoolIsTagged );
+    _variant_t GetPresenceProperties ( );
+    void PutPresenceProperties (
+        const _variant_t & pvPresenceProperties );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall get_IsTagged (
+        /*[out,retval]*/ VARIANT_BOOL * pBoolIsTagged ) = 0;
+      virtual HRESULT __stdcall put_IsTagged (
+        /*[in]*/ VARIANT_BOOL pBoolIsTagged ) = 0;
+      virtual HRESULT __stdcall get_PresenceProperties (
+        /*[out,retval]*/ VARIANT * pvPresenceProperties ) = 0;
+      virtual HRESULT __stdcall put_PresenceProperties (
+        /*[in]*/ VARIANT pvPresenceProperties ) = 0;
+};
+
+struct __declspec(uuid("e7479a0d-bb19-44a5-968f-6f41d93ee0bc"))
+IMessengerContacts : IDispatch
+{
+    //
+    // Property data
+    //
+
+    __declspec(property(get=GetCount))
+    long Count;
+    __declspec(property(get=Get_NewEnum))
+    IUnknownPtr _NewEnum;
+
+    //
+    // Wrapper methods for error-handling
+    //
+
+    long GetCount ( );
+    IDispatchPtr Item (
+        long Index );
+    HRESULT Remove (
+        IDispatch * pMContact );
+    IUnknownPtr Get_NewEnum ( );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall get_Count (
+        /*[out,retval]*/ long * pcContacts ) = 0;
+      virtual HRESULT __stdcall raw_Item (
+        /*[in]*/ long Index,
+        /*[out,retval]*/ IDispatch * * ppMContact ) = 0;
+      virtual HRESULT __stdcall raw_Remove (
+        /*[in]*/ IDispatch * pMContact ) = 0;
+      virtual HRESULT __stdcall get__NewEnum (
+        /*[out,retval]*/ IUnknown * * ppUnknown ) = 0;
+};
+
+struct __declspec(uuid("2e50547c-a8aa-4f60-b57e-1f414711007b"))
+IMessengerService : IDispatch
+{
+    //
+    // Property data
+    //
+
+    __declspec(property(get=GetServiceName))
+    _bstr_t ServiceName;
+    __declspec(property(get=GetMyFriendlyName))
+    _bstr_t MyFriendlyName;
+    __declspec(property(get=GetMyStatus))
+    MISTATUS MyStatus;
+    __declspec(property(get=GetProperty,put=PutProperty))
+    _variant_t Property[];
+    __declspec(property(get=GetServiceId))
+    _bstr_t ServiceId;
+    __declspec(property(get=GetMySigninName))
+    _bstr_t MySigninName;
+
+    //
+    // Wrapper methods for error-handling
+    //
+
+    _bstr_t GetServiceName ( );
+    _bstr_t GetServiceId ( );
+    _bstr_t GetMyFriendlyName ( );
+    MISTATUS GetMyStatus ( );
+    _bstr_t GetMySigninName ( );
+    _variant_t GetProperty (
+        MSERVICEPROPERTY ePropType );
+    void PutProperty (
+        MSERVICEPROPERTY ePropType,
+        const _variant_t & pvPropVal );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall get_ServiceName (
+        /*[out,retval]*/ BSTR * pbstrServiceName ) = 0;
+      virtual HRESULT __stdcall get_ServiceId (
+        /*[out,retval]*/ BSTR * pbstrID ) = 0;
+      virtual HRESULT __stdcall get_MyFriendlyName (
+        /*[out,retval]*/ BSTR * pbstrName ) = 0;
+      virtual HRESULT __stdcall get_MyStatus (
+        /*[out,retval]*/ MISTATUS * pmiStatus ) = 0;
+      virtual HRESULT __stdcall get_MySigninName (
+        /*[out,retval]*/ BSTR * pbstrName ) = 0;
+      virtual HRESULT __stdcall get_Property (
+        /*[in]*/ MSERVICEPROPERTY ePropType,
+        /*[out,retval]*/ VARIANT * pvPropVal ) = 0;
+      virtual HRESULT __stdcall put_Property (
+        /*[in]*/ MSERVICEPROPERTY ePropType,
+        /*[in]*/ VARIANT pvPropVal ) = 0;
+};
+
+enum __MIDL___MIDL_itf_eSpace_0001_0070_0008
+{
+    MSERVICEPROP_INVALID_PROPERTY = -1
+};
+
+struct __declspec(uuid("2e50547b-a8aa-4f60-b57e-1f414711007b"))
+IMessengerServices : IDispatch
+{
+    //
+    // Property data
+    //
+
+    __declspec(property(get=GetPrimaryService))
+    IDispatchPtr PrimaryService;
+    __declspec(property(get=GetCount))
+    long Count;
+    __declspec(property(get=Get_NewEnum))
+    IUnknownPtr _NewEnum;
+
+    //
+    // Wrapper methods for error-handling
+    //
+
+    IDispatchPtr GetPrimaryService ( );
+    long GetCount ( );
+    IDispatchPtr Item (
+        long Index );
+    IUnknownPtr Get_NewEnum ( );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall get_PrimaryService (
+        /*[out,retval]*/ IDispatch * * ppService ) = 0;
+      virtual HRESULT __stdcall get_Count (
+        /*[out,retval]*/ long * pcServices ) = 0;
+      virtual HRESULT __stdcall raw_Item (
+        /*[in]*/ long Index,
+        /*[out,retval]*/ IDispatch * * ppService ) = 0;
+      virtual HRESULT __stdcall get__NewEnum (
+        /*[out,retval]*/ IUnknown * * ppUnknown ) = 0;
+};
+
+struct __declspec(uuid("e1af1038-b884-44cb-a535-1c3c11a3d1db"))
+IMessengerGroup : IDispatch
+{
+    //
+    // Property data
+    //
+
+    __declspec(property(get=GetContacts))
+    IDispatchPtr Contacts;
+    __declspec(property(get=GetName,put=PutName))
+    _bstr_t Name;
+    __declspec(property(get=GetService))
+    IDispatchPtr Service;
+
+    //
+    // Wrapper methods for error-handling
+    //
+
+    IDispatchPtr GetContacts ( );
+    _bstr_t GetName ( );
+    void PutName (
+        _bstr_t bstrName );
+    HRESULT AddContact (
+        const _variant_t & vContact );
+    HRESULT RemoveContact (
+        const _variant_t & vContact );
+    IDispatchPtr GetService ( );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall get_Contacts (
+        /*[out,retval]*/ IDispatch * * ppMContacts ) = 0;
+      virtual HRESULT __stdcall get_Name (
+        /*[out,retval]*/ BSTR * bstrName ) = 0;
+      virtual HRESULT __stdcall put_Name (
+        /*[in]*/ BSTR bstrName ) = 0;
+      virtual HRESULT __stdcall raw_AddContact (
+        /*[in]*/ VARIANT vContact ) = 0;
+      virtual HRESULT __stdcall raw_RemoveContact (
+        /*[in]*/ VARIANT vContact ) = 0;
+      virtual HRESULT __stdcall get_Service (
+        /*[out,retval]*/ IDispatch * * pService ) = 0;
+};
+
+struct __declspec(uuid("e1af1028-b884-44cb-a535-1c3c11a3d1db"))
+IMessengerGroups : IDispatch
+{
+    //
+    // Property data
+    //
+
+    __declspec(property(get=GetCount))
+    long Count;
+    __declspec(property(get=Get_NewEnum))
+    IUnknownPtr _NewEnum;
+
+    //
+    // Wrapper methods for error-handling
+    //
+
+    HRESULT Remove (
+        IDispatch * pGroup );
+    long GetCount ( );
+    IDispatchPtr Item (
+        long Index );
+    IUnknownPtr Get_NewEnum ( );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall raw_Remove (
+        /*[in]*/ IDispatch * pGroup ) = 0;
+      virtual HRESULT __stdcall get_Count (
+        /*[out,retval]*/ long * pcCount ) = 0;
+      virtual HRESULT __stdcall raw_Item (
+        /*[in]*/ long Index,
+        /*[out,retval]*/ IDispatch * * ppMGroup ) = 0;
+      virtual HRESULT __stdcall get__NewEnum (
+        /*[out,retval]*/ IUnknown * * ppUnknown ) = 0;
+};
+
+struct __declspec(uuid("521b0196-2da2-483e-993d-74fab4785959"))
+IMessengerEventHandler : IDispatch
+{
+    //
+    // Wrapper methods for error-handling
+    //
+
+    HRESULT NotifyContactStatusChange (
+        IDispatch * pDispContact,
+        MISTATUS MISTATUS );
+    HRESULT NotifyAppShutdown ( );
+    HRESULT NotifySignOut ( );
+    HRESULT NotifySignIn ( );
+    HRESULT NotifyContactListAdd (
+        long hResult,
+        IDispatch * pDispContact );
+    HRESULT NotifyContactListRemove (
+        long hResult,
+        IDispatch * pDispContact );
+    HRESULT NotifyContactResolved (
+        long hResult,
+        ADDRESS_TYPE AddressType,
+        _bstr_t bstrAddress,
+        _bstr_t bstrIMAddress );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall raw_NotifyContactStatusChange (
+        /*[in]*/ IDispatch * pDispContact,
+        /*[in]*/ MISTATUS MISTATUS ) = 0;
+      virtual HRESULT __stdcall raw_NotifyAppShutdown ( ) = 0;
+      virtual HRESULT __stdcall raw_NotifySignOut ( ) = 0;
+      virtual HRESULT __stdcall raw_NotifySignIn ( ) = 0;
+      virtual HRESULT __stdcall raw_NotifyContactListAdd (
+        /*[in]*/ long hResult,
+        /*[in]*/ IDispatch * pDispContact ) = 0;
+      virtual HRESULT __stdcall raw_NotifyContactListRemove (
+        /*[in]*/ long hResult,
+        /*[in]*/ IDispatch * pDispContact ) = 0;
+      virtual HRESULT __stdcall raw_NotifyContactResolved (
+        /*[in]*/ long hResult,
+        /*[in]*/ ADDRESS_TYPE AddressType,
+        /*[in]*/ BSTR bstrAddress,
+        /*[in]*/ BSTR bstrIMAddress ) = 0;
+};
+
+struct __declspec(uuid("61be43c6-235e-45f9-857d-d5fdf00053f1"))
+IECSContactInfo : IDispatch
+{
+    //
+    // Wrapper methods for error-handling
+    //
+
+    _bstr_t GetFriendlyName ( );
+    _bstr_t GetID ( );
+    _bstr_t GetName ( );
+    _bstr_t GetHomePhone ( );
+    _bstr_t GetOfficePhone ( );
+    _bstr_t GetOtherPhone ( );
+    _bstr_t GetCorpName ( );
+    _bstr_t GetDeptName ( );
+    _bstr_t GetEmail ( );
+    _bstr_t GetMobile ( );
+    long GetStatus ( );
+    HRESULT SetFriendlyName (
+        _bstr_t FriendlyName );
+    HRESULT SetID (
+        _bstr_t ID );
+    HRESULT SetName (
+        _bstr_t Name );
+    HRESULT SetHomePhone (
+        _bstr_t homePhone );
+    HRESULT SetOfficePhone (
+        _bstr_t officePhone );
+    HRESULT SetOtherPhone (
+        _bstr_t otherPhone );
+    HRESULT SetCorpName (
+        _bstr_t corpName );
+    HRESULT SetDeptName (
+        _bstr_t deptName );
+    HRESULT SetEmail (
+        _bstr_t email );
+    HRESULT SetMobile (
+        _bstr_t mobile );
+    HRESULT SetStatus (
+        long Status );
+    _bstr_t GetUcAccount ( );
+    _bstr_t GetUcUri ( );
+    HRESULT SetUcAccount (
+        _bstr_t ucAccount );
+    HRESULT SetUcUri (
+        _bstr_t ucUri );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall raw_GetFriendlyName (
+        /*[out,retval]*/ BSTR * FriendlyName ) = 0;
+      virtual HRESULT __stdcall raw_GetID (
+        /*[out,retval]*/ BSTR * ID ) = 0;
+      virtual HRESULT __stdcall raw_GetName (
+        /*[out,retval]*/ BSTR * Name ) = 0;
+      virtual HRESULT __stdcall raw_GetHomePhone (
+        /*[out,retval]*/ BSTR * homePhone ) = 0;
+      virtual HRESULT __stdcall raw_GetOfficePhone (
+        /*[out,retval]*/ BSTR * officePhone ) = 0;
+      virtual HRESULT __stdcall raw_GetOtherPhone (
+        /*[out,retval]*/ BSTR * otherPhone ) = 0;
+      virtual HRESULT __stdcall raw_GetCorpName (
+        /*[out,retval]*/ BSTR * corpName ) = 0;
+      virtual HRESULT __stdcall raw_GetDeptName (
+        /*[out,retval]*/ BSTR * deptName ) = 0;
+      virtual HRESULT __stdcall raw_GetEmail (
+        /*[out,retval]*/ BSTR * email ) = 0;
+      virtual HRESULT __stdcall raw_GetMobile (
+        /*[out,retval]*/ BSTR * mobile ) = 0;
+      virtual HRESULT __stdcall raw_GetStatus (
+        /*[out,retval]*/ long * Status ) = 0;
+      virtual HRESULT __stdcall raw_SetFriendlyName (
+        /*[in]*/ BSTR FriendlyName ) = 0;
+      virtual HRESULT __stdcall raw_SetID (
+        /*[in]*/ BSTR ID ) = 0;
+      virtual HRESULT __stdcall raw_SetName (
+        /*[in]*/ BSTR Name ) = 0;
+      virtual HRESULT __stdcall raw_SetHomePhone (
+        /*[in]*/ BSTR homePhone ) = 0;
+      virtual HRESULT __stdcall raw_SetOfficePhone (
+        /*[in]*/ BSTR officePhone ) = 0;
+      virtual HRESULT __stdcall raw_SetOtherPhone (
+        /*[in]*/ BSTR otherPhone ) = 0;
+      virtual HRESULT __stdcall raw_SetCorpName (
+        /*[in]*/ BSTR corpName ) = 0;
+      virtual HRESULT __stdcall raw_SetDeptName (
+        /*[in]*/ BSTR deptName ) = 0;
+      virtual HRESULT __stdcall raw_SetEmail (
+        /*[in]*/ BSTR email ) = 0;
+      virtual HRESULT __stdcall raw_SetMobile (
+        /*[in]*/ BSTR mobile ) = 0;
+      virtual HRESULT __stdcall raw_SetStatus (
+        /*[in]*/ long Status ) = 0;
+      virtual HRESULT __stdcall raw_GetUcAccount (
+        /*[out,retval]*/ BSTR * ucAccount ) = 0;
+      virtual HRESULT __stdcall raw_GetUcUri (
+        /*[out,retval]*/ BSTR * ucUri ) = 0;
+      virtual HRESULT __stdcall raw_SetUcAccount (
+        /*[in]*/ BSTR ucAccount ) = 0;
+      virtual HRESULT __stdcall raw_SetUcUri (
+        /*[in]*/ BSTR ucUri ) = 0;
+};
+
+struct __declspec(uuid("3834ef34-21ad-4541-8745-6fc2e00308e0"))
+IECSContactMgr : IDispatch
+{
+    //
+    // Wrapper methods for error-handling
+    //
+
+    IECSContactInfoPtr GetContactInfo (
+        _bstr_t account );
+    HRESULT GetContactInfoByCondition (
+        _bstr_t cond,
+        SAFEARRAY * * ppContactInfo );
+    HRESULT SubscribeContactStatus (
+        _bstr_t account,
+        long subType );
+    HRESULT AddnonUCContacts ( );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall raw_GetContactInfo (
+        /*[in]*/ BSTR account,
+        /*[out,retval]*/ struct IECSContactInfo * * ppContactInfo ) = 0;
+      virtual HRESULT __stdcall raw_GetContactInfoByCondition (
+        /*[in]*/ BSTR cond,
+        /*[out]*/ SAFEARRAY * * ppContactInfo ) = 0;
+      virtual HRESULT __stdcall raw_SubscribeContactStatus (
+        /*[in]*/ BSTR account,
+        /*[in]*/ long subType ) = 0;
+      virtual HRESULT __stdcall raw_AddnonUCContacts ( ) = 0;
+};
+
+struct __declspec(uuid("c90fe523-9a37-4ebb-941c-ee9c34edc869"))
+IECSMainWindow : IDispatch
+{
+    //
+    // Wrapper methods for error-handling
+    //
+
+    HRESULT MakeCall (
+        _bstr_t bstrUri,
+        _bstr_t bstrPhoneNo );
+    HRESULT ShowDialPad (
+        long Screen_X,
+        long Screen_Y );
+    HRESULT ShowCreateIMMeeting ( );
+    HRESULT ShowCreateMMMeeting ( );
+    HRESULT ShowIMChat (
+        _bstr_t receiver );
+    HRESULT ShowMeetingMgr ( );
+    HRESULT MakeVideoCall (
+        _bstr_t bstrUri,
+        _bstr_t bstrPhoneNo );
+    HRESULT ShowSMSChat (
+        SAFEARRAY * receiver );
+    long GetSmsPERM ( );
+    HRESULT ShowSMSGroupChat (
+        _bstr_t Groupno );
+    HRESULT HideMainWindow ( );
+    HRESULT ShowMainWindow ( );
+    HRESULT JoinConf (
+        _bstr_t bstrAccessCode,
+        _bstr_t bstrPasscode );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall raw_MakeCall (
+        /*[in]*/ BSTR bstrUri,
+        /*[in]*/ BSTR bstrPhoneNo ) = 0;
+      virtual HRESULT __stdcall raw_ShowDialPad (
+        /*[in]*/ long Screen_X,
+        /*[in]*/ long Screen_Y ) = 0;
+      virtual HRESULT __stdcall raw_ShowCreateIMMeeting ( ) = 0;
+      virtual HRESULT __stdcall raw_ShowCreateMMMeeting ( ) = 0;
+      virtual HRESULT __stdcall raw_ShowIMChat (
+        /*[in]*/ BSTR receiver ) = 0;
+      virtual HRESULT __stdcall raw_ShowMeetingMgr ( ) = 0;
+      virtual HRESULT __stdcall raw_MakeVideoCall (
+        /*[in]*/ BSTR bstrUri,
+        /*[in]*/ BSTR bstrPhoneNo ) = 0;
+      virtual HRESULT __stdcall raw_ShowSMSChat (
+        /*[in]*/ SAFEARRAY * receiver ) = 0;
+      virtual HRESULT __stdcall raw_GetSmsPERM (
+        /*[out,retval]*/ long * lPerm ) = 0;
+      virtual HRESULT __stdcall raw_ShowSMSGroupChat (
+        /*[in]*/ BSTR Groupno ) = 0;
+      virtual HRESULT __stdcall raw_HideMainWindow ( ) = 0;
+      virtual HRESULT __stdcall raw_ShowMainWindow ( ) = 0;
+      virtual HRESULT __stdcall raw_JoinConf (
+        /*[in]*/ BSTR bstrAccessCode,
+        /*[in]*/ BSTR bstrPasscode ) = 0;
+};
+
+struct __declspec(uuid("96841d96-03b4-4e7a-b964-65a86bf10146"))
+IECSOperatorResult : IDispatch
+{};
+
+struct __declspec(uuid("55d7298e-9bc7-484e-99d7-5751b5c24c7a"))
+IECSEventHandler : IDispatch
+{};
+
+enum ECSEventType
+{
+    APP_SHUTDOWN = 0,
+    LOGIN_STATE_CHANGE = 1,
+    CONTACT_STATE_CHANGE = 2
+};
+
+struct __declspec(uuid("3c4afede-da1d-4843-bf30-17c1e6c91ace"))
+IECSEventCallback : IDispatch
+{
+    //
+    // Wrapper methods for error-handling
+    //
+
+    HRESULT OnEventReceived (
+        enum ECSEventType eventId,
+        VARIANT * param1,
+        VARIANT * param2,
+        IUnknown * eventInfo );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall raw_OnEventReceived (
+        /*[in]*/ enum ECSEventType eventId,
+        /*[in]*/ VARIANT * param1,
+        /*[in]*/ VARIANT * param2,
+        IUnknown * eventInfo ) = 0;
+};
+
+#pragma pack(push, 4)
+
+struct __declspec(uuid("c21871a0-33eb-11d4-a13a-be2573a1120f"))
+STCONTACTINFO
+{
+    struct IECSContactInfo * pContactInfo;
+};
+
+#pragma pack(pop)
+
+struct __declspec(uuid("68e5f4ee-3c09-474a-8068-af7f1366001b"))
+IECSEspaceApp : IDispatch
+{
+    //
+    // Wrapper methods for error-handling
+    //
+
+    IECSContactInfoPtr GetSelfInfo ( );
+    IECSContactMgrPtr GetContactMgr ( );
+    IECSMainWindowPtr GetMainWindow ( );
+    HRESULT RegisterEventListener (
+        enum ECSEventType eventId,
+        GUID interfaceId,
+        struct IECSEventCallback * handler );
+    HRESULT UnregisterEventListener (
+        enum ECSEventType eventId,
+        GUID interfaceId,
+        struct IECSEventCallback * handler );
+    HRESULT OnContactStatusChanged (
+        int _state,
+        _bstr_t _contact );
+    HRESULT OnLoginStatusChanged (
+        int state );
+    HRESULT ShowLoginDialog ( );
+    IECSOperatorResultPtr BackGroundLogin (
+        _bstr_t account,
+        _bstr_t pwd );
+    IECSOperatorResultPtr BackGroundTokenLogin (
+        _bstr_t account,
+        _bstr_t token );
+    HRESULT OnAppShutdown ( );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall raw_GetSelfInfo (
+        /*[out,retval]*/ struct IECSContactInfo * * self ) = 0;
+      virtual HRESULT __stdcall raw_GetContactMgr (
+        /*[out,retval]*/ struct IECSContactMgr * * ppContactMgr ) = 0;
+      virtual HRESULT __stdcall raw_GetMainWindow (
+        /*[out,retval]*/ struct IECSMainWindow * * ppMainWindow ) = 0;
+      virtual HRESULT __stdcall raw_RegisterEventListener (
+        /*[in]*/ enum ECSEventType eventId,
+        /*[in]*/ GUID interfaceId,
+        /*[in]*/ struct IECSEventCallback * handler ) = 0;
+      virtual HRESULT __stdcall raw_UnregisterEventListener (
+        /*[in]*/ enum ECSEventType eventId,
+        /*[in]*/ GUID interfaceId,
+        /*[in]*/ struct IECSEventCallback * handler ) = 0;
+      virtual HRESULT __stdcall raw_OnContactStatusChanged (
+        /*[in]*/ int _state,
+        /*[in]*/ BSTR _contact ) = 0;
+      virtual HRESULT __stdcall raw_OnLoginStatusChanged (
+        /*[in]*/ int state ) = 0;
+      virtual HRESULT __stdcall raw_ShowLoginDialog ( ) = 0;
+      virtual HRESULT __stdcall raw_BackGroundLogin (
+        /*[in]*/ BSTR account,
+        /*[in]*/ BSTR pwd,
+        /*[out,retval]*/ struct IECSOperatorResult * * pRst ) = 0;
+      virtual HRESULT __stdcall raw_BackGroundTokenLogin (
+        /*[in]*/ BSTR account,
+        /*[in]*/ BSTR token,
+        /*[out,retval]*/ struct IECSOperatorResult * * pRst ) = 0;
+      virtual HRESULT __stdcall raw_OnAppShutdown ( ) = 0;
+};
+
+enum EXTENDED_STATUS_TYPE
+{
+    EXTENDED_STATUS_WEB = 1,
+    EXTENDED_STATUS_MOBILE = 2,
+    EXTENDED_STATUS_BLOCKED = 256
+};
+
+enum __MIDL___MIDL_itf_eSpace_0001_0081_0001
+{
+    CONTACT_PROP_TITLE = 0,
+    CONTACT_PROP_OFFICE = 1
+};
+
+enum __MIDL___MIDL_itf_eSpace_0001_0081_0002
+{
+    CALENDAR_STATE_NOT_AVAILABLE = 0,
+    CALENDAR_STATE_FREE = 1,
+    CALENDAR_STATE_TENTATIVE = 2,
+    CALENDAR_STATE_NOTWORKING = 3,
+    CALENDAR_STATE_BUSY = 4,
+    CALENDAR_STATE_OUT_OF_OFFICE = 5
+};
+
+enum __MIDL___MIDL_itf_eSpace_0001_0081_0003
+{
+    PRESENCE_PROP_MSTATE = 0,
+    PRESENCE_PROP_AVAILABILITY = 1,
+    PRESENCE_PROP_IS_BLOCKED = 2,
+    PRESENCE_PROP_PRESENCE_NOTE = 3,
+    PRESENCE_PROP_IS_OOF = 4,
+    PRESENCE_PROP_TOOL_TIP = 5,
+    PRESENCE_PROP_CUSTOM_STATUS_STRING = 6,
+    PRESENCE_PROP_DEVICE_TYPE = 7,
+    PRESENCE_PROP_CURRENT_CALENDAR_STATE = 8,
+    PRESENCE_PROP_NEXT_CALENDAR_STATE = 9,
+    PRESENCE_PROP_NEXT_CALENDAR_STATE_TIME = 10,
+    PRESENCE_PROP_MAX = 11
+};
+
+struct __declspec(uuid("8885370d-b33e-44b7-875d-28e403cf9270"))
+Messenger;
+    // [ default ] interface IMessenger3
+    // [ default, source ] dispinterface DMessengerEvents
+
+struct __declspec(uuid("126ec10e-f63f-413f-b8f4-4fbb2557013a"))
+MessengerServices;
+    // [ default ] interface IMessengerServices
+    // [ default, source ] dispinterface DMessengerEvents
+
+struct __declspec(uuid("5d061bf0-a551-4748-807f-8d37d73c3f36"))
+MessengerContacts;
+    // [ default ] interface IMessengerContacts
+    // interface IMessengerContact
+    // [ default, source ] dispinterface DMessengerEvents
+
+struct __declspec(uuid("163bb172-eac4-4249-9e5f-42b381999ae0"))
+ECSEspaceApp;
+    // [ default ] interface IECSEspaceApp
+
+struct __declspec(uuid("60d82820-9504-47cf-b79b-4d29c5b9d041"))
+ECSContactMgr;
+    // [ default ] interface IECSContactMgr
+
+struct __declspec(uuid("abf66e0d-7a35-4b65-8cb6-f13946185637"))
+ECSContactInfo;
+    // [ default ] interface IECSContactInfo
+
+struct __declspec(uuid("6a1b97e8-6f8a-45fb-b9b7-0e9bb5956d4f"))
+ECSMainWindow;
+    // [ default ] interface IECSMainWindow
+
+struct __declspec(uuid("3e806413-93c7-4d43-8200-16a84328caf8"))
+ECSOperatorResult;
+    // [ default ] interface IECSOperatorResult
+
+struct __declspec(uuid("714b645c-a4f0-4fa7-bbd8-4c7a93a9e86f"))
+ECSEventHandler;
+    // [ default ] interface IECSEventHandler
+
+//
+// Named GUID constants initializations
+//
+
+extern "C" const GUID __declspec(selectany) LIBID_eSpace =
+    {0xe10b15d4,0x4d75,0x4804,{0x8f,0x7d,0x7c,0x7e,0x2b,0xe1,0xd9,0xb2}};
+extern "C" const GUID __declspec(selectany) IID_IMessenger =
+    {0xd50c3186,0x0f89,0x48f8,{0xb2,0x04,0x36,0x04,0x62,0x9d,0xee,0x10}};
+extern "C" const GUID __declspec(selectany) IID_IMessenger2 =
+    {0xd50c3286,0x0f89,0x48f8,{0xb2,0x04,0x36,0x04,0x62,0x9d,0xee,0x10}};
+extern "C" const GUID __declspec(selectany) IID_IMessenger3 =
+    {0xd50c3386,0x0f89,0x48f8,{0xb2,0x04,0x36,0x04,0x62,0x9d,0xee,0x10}};
+extern "C" const GUID __declspec(selectany) IID_IMessengerAdvanced =
+    {0xda0635e8,0x09af,0x480c,{0x88,0xb2,0xaa,0x9f,0xa1,0xd9,0xdb,0x27}};
+extern "C" const GUID __declspec(selectany) IID_IMessengerContactResolution =
+    {0x53a5023d,0x6872,0x454a,{0x9a,0x4f,0x82,0x7f,0x18,0xcf,0xbe,0x02}};
+extern "C" const GUID __declspec(selectany) DIID_DMessengerEvents =
+    {0xc9a6a6b6,0x9bc1,0x43a5,{0xb0,0x6b,0xe5,0x88,0x74,0xee,0xbc,0x96}};
+extern "C" const GUID __declspec(selectany) IID_IMessengerWindow =
+    {0xd6b0e4c8,0xfad6,0x4885,{0xb2,0x71,0x0d,0xc5,0xa5,0x84,0xad,0xf8}};
+extern "C" const GUID __declspec(selectany) IID_IMessengerConversationWnd =
+    {0xd6b0e4c9,0xfad6,0x4885,{0xb2,0x71,0x0d,0xc5,0xa5,0x84,0xad,0xf8}};
+extern "C" const GUID __declspec(selectany) IID_IMessengerConversationWndAdvanced =
+    {0x7c613a61,0x0633,0x4c69,{0xaf,0xf0,0x5b,0xa9,0xf1,0xd2,0x88,0x87}};
+extern "C" const GUID __declspec(selectany) IID_IMessengerContact =
+    {0xe7479a0f,0xbb19,0x44a5,{0x96,0x8f,0x6f,0x41,0xd9,0x3e,0xe0,0xbc}};
+extern "C" const GUID __declspec(selectany) IID_IMessengerContactAdvanced =
+    {0x086f69c0,0x2fbd,0x46b3,{0xbe,0x50,0xec,0x40,0x1a,0xb8,0x60,0x99}};
+extern "C" const GUID __declspec(selectany) IID_IMessengerContacts =
+    {0xe7479a0d,0xbb19,0x44a5,{0x96,0x8f,0x6f,0x41,0xd9,0x3e,0xe0,0xbc}};
+extern "C" const GUID __declspec(selectany) IID_IMessengerService =
+    {0x2e50547c,0xa8aa,0x4f60,{0xb5,0x7e,0x1f,0x41,0x47,0x11,0x00,0x7b}};
+extern "C" const GUID __declspec(selectany) IID_IMessengerServices =
+    {0x2e50547b,0xa8aa,0x4f60,{0xb5,0x7e,0x1f,0x41,0x47,0x11,0x00,0x7b}};
+extern "C" const GUID __declspec(selectany) IID_IMessengerGroup =
+    {0xe1af1038,0xb884,0x44cb,{0xa5,0x35,0x1c,0x3c,0x11,0xa3,0xd1,0xdb}};
+extern "C" const GUID __declspec(selectany) IID_IMessengerGroups =
+    {0xe1af1028,0xb884,0x44cb,{0xa5,0x35,0x1c,0x3c,0x11,0xa3,0xd1,0xdb}};
+extern "C" const GUID __declspec(selectany) IID_IMessengerEventHandler =
+    {0x521b0196,0x2da2,0x483e,{0x99,0x3d,0x74,0xfa,0xb4,0x78,0x59,0x59}};
+extern "C" const GUID __declspec(selectany) IID_IECSContactInfo =
+    {0x61be43c6,0x235e,0x45f9,{0x85,0x7d,0xd5,0xfd,0xf0,0x00,0x53,0xf1}};
+extern "C" const GUID __declspec(selectany) IID_IECSContactMgr =
+    {0x3834ef34,0x21ad,0x4541,{0x87,0x45,0x6f,0xc2,0xe0,0x03,0x08,0xe0}};
+extern "C" const GUID __declspec(selectany) IID_IECSMainWindow =
+    {0xc90fe523,0x9a37,0x4ebb,{0x94,0x1c,0xee,0x9c,0x34,0xed,0xc8,0x69}};
+extern "C" const GUID __declspec(selectany) IID_IECSOperatorResult =
+    {0x96841d96,0x03b4,0x4e7a,{0xb9,0x64,0x65,0xa8,0x6b,0xf1,0x01,0x46}};
+extern "C" const GUID __declspec(selectany) IID_IECSEventHandler =
+    {0x55d7298e,0x9bc7,0x484e,{0x99,0xd7,0x57,0x51,0xb5,0xc2,0x4c,0x7a}};
+extern "C" const GUID __declspec(selectany) IID_IECSEventCallback =
+    {0x3c4afede,0xda1d,0x4843,{0xbf,0x30,0x17,0xc1,0xe6,0xc9,0x1a,0xce}};
+extern "C" const GUID __declspec(selectany) IID_IECSEspaceApp =
+    {0x68e5f4ee,0x3c09,0x474a,{0x80,0x68,0xaf,0x7f,0x13,0x66,0x00,0x1b}};
+extern "C" const GUID __declspec(selectany) CLSID_Messenger =
+    {0x8885370d,0xb33e,0x44b7,{0x87,0x5d,0x28,0xe4,0x03,0xcf,0x92,0x70}};
+extern "C" const GUID __declspec(selectany) CLSID_MessengerServices =
+    {0x126ec10e,0xf63f,0x413f,{0xb8,0xf4,0x4f,0xbb,0x25,0x57,0x01,0x3a}};
+extern "C" const GUID __declspec(selectany) CLSID_MessengerContacts =
+    {0x5d061bf0,0xa551,0x4748,{0x80,0x7f,0x8d,0x37,0xd7,0x3c,0x3f,0x36}};
+extern "C" const GUID __declspec(selectany) CLSID_ECSEspaceApp =
+    {0x163bb172,0xeac4,0x4249,{0x9e,0x5f,0x42,0xb3,0x81,0x99,0x9a,0xe0}};
+extern "C" const GUID __declspec(selectany) CLSID_ECSContactMgr =
+    {0x60d82820,0x9504,0x47cf,{0xb7,0x9b,0x4d,0x29,0xc5,0xb9,0xd0,0x41}};
+extern "C" const GUID __declspec(selectany) CLSID_ECSContactInfo =
+    {0xabf66e0d,0x7a35,0x4b65,{0x8c,0xb6,0xf1,0x39,0x46,0x18,0x56,0x37}};
+extern "C" const GUID __declspec(selectany) CLSID_ECSMainWindow =
+    {0x6a1b97e8,0x6f8a,0x45fb,{0xb9,0xb7,0x0e,0x9b,0xb5,0x95,0x6d,0x4f}};
+extern "C" const GUID __declspec(selectany) CLSID_ECSOperatorResult =
+    {0x3e806413,0x93c7,0x4d43,{0x82,0x00,0x16,0xa8,0x43,0x28,0xca,0xf8}};
+extern "C" const GUID __declspec(selectany) CLSID_ECSEventHandler =
+    {0x714b645c,0xa4f0,0x4fa7,{0xbb,0xd8,0x4c,0x7a,0x93,0xa9,0xe8,0x6f}};
+
+//
+// Wrapper method implementations
+//
+
+#include "espace.tli"
+
+} // namespace eSpace
+
+#pragma pack(pop)
