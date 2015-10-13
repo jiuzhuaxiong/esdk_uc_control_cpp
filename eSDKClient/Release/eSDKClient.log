@@ -1,0 +1,54 @@
+﻿Build started 2015/10/13 9:14:16.
+     1>Project "D:\OutIng Share\GetHub\esdk_uc_control_cpp\eSDKClient\eSDKClient.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Release\eSDKClient.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Release\eSDKClient.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\include /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _AFXEXT /D ESDK_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Release\eSDKClient.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\include /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _AFXEXT /D ESDK_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\eSDKClient.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt eSDKClient.cpp ESdkConfCtrl.cpp ESdkCtrl.cpp ESdkDialCtrl.cpp ESdkIMCtrl.cpp ESdkStatusCtrl.cpp eSDKUtil.cpp IniFile.cpp Language.cpp Logger.cpp PublicFunction.cpp SDKButton.cpp
+         eSDKClient.cpp
+         ESdkConfCtrl.cpp
+         ESdkCtrl.cpp
+         ESdkDialCtrl.cpp
+         ESdkIMCtrl.cpp
+         ESdkStatusCtrl.cpp
+     1>ESdkStatusCtrl.cpp(461): warning C4482: nonstandard extension used: enum 'CESdkStatusCtrl::EnStatus' used in qualified name
+         eSDKUtil.cpp
+         IniFile.cpp
+         Language.cpp
+         Logger.cpp
+         PublicFunction.cpp
+         SDKButton.cpp
+       ResourceCompile:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D NDEBUG /D _UNICODE /D UNICODE /D _AFXDLL /l"0x0804" /IRelease\ /nologo /fo"Release\eSDKClient.res" eSDKClient.rc 
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\OutIng Share\GetHub\esdk_uc_control_cpp\Release\eSDKClient.dll" /INCREMENTAL:NO /NOLOGO /DEF:".\eSDKClient.def" /MANIFEST /ManifestFile:"Release\eSDKClient.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\OutIng Share\GetHub\esdk_uc_control_cpp\Release\eSDKClient.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\OutIng Share\GetHub\esdk_uc_control_cpp\Release\eSDKClient.lib" /MACHINE:X86 /DLL Release\eSDKClient.res
+         Release\eSDKClient.obj
+         Release\ESdkConfCtrl.obj
+         Release\ESdkCtrl.obj
+         Release\ESdkDialCtrl.obj
+         Release\ESdkIMCtrl.obj
+         Release\ESdkStatusCtrl.obj
+         Release\eSDKUtil.obj
+         Release\IniFile.obj
+         Release\Language.obj
+         Release\Logger.obj
+         Release\PublicFunction.obj
+         Release\SDKButton.obj
+         Release\stdafx.obj
+            Creating library D:\OutIng Share\GetHub\esdk_uc_control_cpp\Release\eSDKClient.lib and object D:\OutIng Share\GetHub\esdk_uc_control_cpp\Release\eSDKClient.exp
+         Generating code
+         Finished generating code
+         eSDKClient.vcxproj -> D:\OutIng Share\GetHub\esdk_uc_control_cpp\Release\eSDKClient.dll
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\OutIng Share\GetHub\esdk_uc_control_cpp\Release\eSDKClient.dll;#2" /manifest Release\eSDKClient.dll.intermediate.manifest "C:\Program Files\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+       FinalizeBuildStatus:
+         Deleting file "Release\eSDKClient.unsuccessfulbuild".
+         Touching "Release\eSDKClient.lastbuildstate".
+     1>Done Building Project "D:\OutIng Share\GetHub\esdk_uc_control_cpp\eSDKClient\eSDKClient.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.02
