@@ -1,12 +1,14 @@
-ÎÄµµËµÃ÷£º
- 1. Build×Ô¶¯Éú³É½Å±¾£¬¿ÉÒÔÉú³Évs2008°æºÍVS2010°æµÄDLL¿â£»
- 2. eSDKClient¹¤³Ì´úÂë£»
- 3. Includeµ÷ÓÃ±¾¹¤³ÌÉú³ÉDLL±ØÐëµÃÍ·ÎÄ¼þ£»
- 4. eSDKClient2008.sln£¬eSDKClient2010.sln±¾¹¤³ÌÌá¹©VS 2008, VS2010Á½ÖÖ±àÒë·½Ê½¡£
+é¡¹ç›®ç®€ä»‹
 
-¹¤³ÌËµÃ÷£º
-  ±¾¹¤³ÌÊÇ²ÉÓÃcommµ÷ÓÃeSpaceµÄ ÁªÏµÈË×´Ì¬,IM,CallÒÔ¼°MeetingÄÜÁ¦¡£
+æ–‡æ¡£è¯´æ˜Žï¼š
+ 1. Buildè‡ªåŠ¨ç”Ÿæˆè„šæœ¬ï¼Œå¯ä»¥ç”Ÿæˆvs2008ç‰ˆå’ŒVS2010ç‰ˆçš„DLLåº“ï¼›
+ 2. eSDKClientå·¥ç¨‹ä»£ç ï¼›
+ 3. Includeè°ƒç”¨æœ¬å·¥ç¨‹ç”ŸæˆDLLå¿…é¡»å¾—å¤´æ–‡ä»¶ï¼›
+ 4. eSDKClient2008.slnï¼ŒeSDKClient2010.slnæœ¬å·¥ç¨‹æä¾›VS 2008, VS2010ä¸¤ç§ç¼–è¯‘æ–¹å¼ã€‚
+
+å·¥ç¨‹è¯´æ˜Žï¼š
+  æœ¬å·¥ç¨‹æ˜¯é‡‡ç”¨commè°ƒç”¨eSpaceçš„ è”ç³»äººçŠ¶æ€,IM,Callä»¥åŠMeetingèƒ½åŠ›ã€‚
 
 
-Ê¹ÓÃËµÃ÷£º
-   Ê¹ÓÃ±¾¹¤³Ìµ÷ÓÃeSpaceÄÜÁ¦Ê±£¬ÐèÒªÔÙÐÂ½¨¹¤³ÌÖÐ°üº¬±¾¹¤³ÌÌá¹©µÄ¿âÎÄ¼þ¼°includeÎÄ¼þ
+ä½¿ç”¨è¯´æ˜Žï¼š
+   ä½¿ç”¨æœ¬å·¥ç¨‹è°ƒç”¨eSpaceèƒ½åŠ›æ—¶ï¼Œéœ€è¦å†æ–°å»ºå·¥ç¨‹ä¸­åŒ…å«æœ¬å·¥ç¨‹æä¾›çš„åº“æ–‡ä»¶åŠincludeæ–‡ä»¶
